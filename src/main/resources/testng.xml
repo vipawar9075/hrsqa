@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="D:/QAProjects/hrs_qa">
+        <classes>
+            <class name="com.altres.projects.ats.clienttestcases.TC01_ClickSettingsLink">
+                <methods>
+                    <include name="ATS1"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.ats.clienttestcases.TC02_ClickApplicationQuestionTemplate">
+                <methods>
+                    <include name="ATS2"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.ats.clienttestcases.TC03_ValidateTemplatePresent">
+                <methods>
+                    <include name="ATS3"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.ats.clienttestcases.TC04_ValidateColumns">
+                <methods>
+                    <include name="ATS4"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.ats.clienttestcases.TC05_ValidateResetButtonFunctionality">
+                <methods>
+                    <include name="ATS5"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.formbuilder.admintestcases.TC01_ValidateFBMenus">
+                <methods>
+                    <include name="validateFBFields"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.formbuilder.admintestcases.TC02_ValidateFBListScreen">
+                <methods>
+                    <include name="validateListScreen"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.formbuilder.admintestcases.TC03_VerifyCustomerFormAnchorField">
+                <methods>
+                    <include name="validateAnchor"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.formbuilder.admintestcases.TC04_ValidateAddSharedFormWithPDF">
+                <methods>
+                    <include name="templateWithPDF"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.formbuilder.admintestcases.TC05_ValidateErrorMessageOnAddForm">
+                <methods>
+                    <include name="validateErrorMessages"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.quickhire.admintestcases.TC01_ValidateDisplayQuickHireNewHireList">
+                <methods>
+                    <include name="validateNewHireList"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.quickhire.admintestcases.TC02_CustomerNumberNotFoundScenario">
+                <methods>
+                    <include name="validateNewHireForNoCustomers"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.quickhire.admintestcases.TC03_ValidateErrorMessageOnAddNewHireScreen">
+                <methods>
+                    <include name="validateErrorMessages"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.quickhire.admintestcases.TC04_ValidateNewHireScreen">
+                <methods>
+                    <include name="validateNewHirePage"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.quickhire.admintestcases.TC05_ValidateNewHireStatus">
+                <methods>
+                    <include name="createNewUserHire"/>
+                </methods>
+            </class>
+            <class name="com.altres.projects.quickhire.admintestcases.TC06_InvalidSSN">
+                <methods>
+                    <include name="validateNewHirePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

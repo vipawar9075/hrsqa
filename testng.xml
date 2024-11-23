@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.altres.projects.quickhire.admintestcases.TC06_InvalidSSN"/>
+      <class name="com.altres.projects.quickhire.admintestcases.TC04_ValidateNewHireScreen"/>
+      <class name="com.altres.projects.quickhire.admintestcases.TC01_ValidateDisplayQuickHireNewHireList"/>
+      <class name="com.altres.projects.quickhire.admintestcases.TC03_ValidateErrorMessageOnAddNewHireScreen"/>
+      <class name="com.altres.projects.ats.clienttestcases.TC03_ValidateTemplatePresent"/>
+      <class name="com.altres.projects.formbuilder.admintestcases.TC05_ValidateErrorMessageOnAddForm"/>
+      <class name="com.altres.projects.ats.clienttestcases.TC05_ValidateResetButtonFunctionality"/>
+      <class name="com.altres.projects.quickhire.admintestcases.TC02_CustomerNumberNotFoundScenario"/>
+      <class name="com.altres.projects.formbuilder.admintestcases.TC01_ValidateFBMenus"/>
+      <class name="com.altres.projects.formbuilder.admintestcases.TC04_ValidateAddSharedFormWithPDF"/>
+      <class name="com.altres.projects.ats.clienttestcases.TC02_ClickApplicationQuestionTemplate"/>
+      <class name="com.altres.projects.quickhire.admintestcases.TC05_ValidateNewHireStatus"/>
+      <class name="com.altres.projects.formbuilder.admintestcases.TC02_ValidateFBListScreen"/>
+      <class name="com.altres.projects.formbuilder.admintestcases.TC03_VerifyCustomerFormAnchorField"/>
+      <class name="com.altres.projects.ats.clienttestcases.TC04_ValidateColumns"/>
+      <class name="com.altres.projects.ats.clienttestcases.TC01_ClickSettingsLink"/>
+      <class name="com.altres.projects.payroll.superuser.generaloption.generaloptiontest.GeneralOptions_OtherPayTabTest"/>
+      <class name="com.altres.projects.payroll.superuser.generaloption.generaloptiontest.GeneralOptions_TimeOffTabTest"/>
+      <class name="com.altres.projects.payroll.superuser.generaloption.generaloptiontest.GeneralOptions_TimeEntryTabTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

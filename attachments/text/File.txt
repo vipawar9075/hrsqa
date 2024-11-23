@@ -1,0 +1,12 @@
+1) Kindly replace the form_builder_template_id with the template id of form that you have already in production database. Eg.SET @id = 'form_builder_template_id';
++
+2) Kindly run Forms_Migration_Scripts_24-07-2024.sql file having customer Form script.
++
+3) PDF files are uploaded in below directory with the naming format as Template name.pdf Eg:- UHA Insurance.pdf:-
+	
+	https://altres.sharepoint.com/:f:/r/sites/AltresMumbaiTeam-IT/Shared%20Documents/1.%20Projects/01.%20QuickHire/customer%20forms/Shared%20Forms/Verify%20I-9%20August%20Deliverables?csf=1&web=1&e=JofaCa
+	
++
+4) Kindly rename the PDF file names with the Template Id's generated from the migration scripts Eg:69.pdf
++
+5) Kindly place the renamed PDF's in the hrp-files path (mentioned in property file)/form_builder/forms Eg:C:/Users/sdalvi/hrsdevfiles/ for the respective Form Templates.
